@@ -28,12 +28,13 @@ Wholesale retail operations require accurate demand forecasting to optimize inve
 • Tuned parameters using stationarity testing and differencing
 
 ## Model Evaluation
-• RMSE: 16,674
-• MAPE: 33.49%
+
+The model achieved a MAPE of 33%, indicating moderate forecasting accuracy for highly sparatic wholesale revenue patterns. Future improvements include outlier smoothing and external feature integration such as seasonality drivers and promotions.
 
 <img width="727" height="453" alt="Screenshot 2026-02-09 at 4 31 36 PM" src="https://github.com/user-attachments/assets/aff40d0f-37f9-4f87-9985-b524fa9a0d6c" />
 
-
+• RSME: 16,674
+• MAPE: 33.49%
 Outlier analysis revealed large sales spikes that influenced model variance and identified opportunities for future model refinement.
 
 ## Business Impact

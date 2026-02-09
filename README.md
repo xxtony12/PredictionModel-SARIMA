@@ -1,3 +1,11 @@
+# How to Run the Project
+
+1. Install dependencies:
+pip install pandas numpy matplotlib scikit-learn statsmodels
+
+2. Run script:
+python sarima_forecasting_model.py
+
 # Revenue Forecasting Using SARIMA Time-Series Modeling
 
 ## Project Overview
@@ -22,6 +30,9 @@ Wholesale retail operations require accurate demand forecasting to optimize inve
 ## Model Evaluation
 • RMSE: 16,674
 • MAPE: 33.49%
+
+<img width="727" height="453" alt="Screenshot 2026-02-09 at 4 31 36 PM" src="https://github.com/user-attachments/assets/aff40d0f-37f9-4f87-9985-b524fa9a0d6c" />
+
 
 Outlier analysis revealed large sales spikes that influenced model variance and identified opportunities for future model refinement.
 
